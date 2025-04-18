@@ -1,0 +1,47 @@
+[
+  {
+    "timestamp": "2025-04-17T10:15:23.456Z",
+    "level": "INFO",
+    "message": "Application started successfully",
+    "module": "main",
+    "function": "main",
+    "line": 42
+  },
+  {
+    "timestamp": "2025-04-17T10:15:24.789Z",
+    "level": "INFO",
+    "message": "Successfully connected to database",
+    "module": "db_connector",
+    "function": "connect",
+    "line": 23
+  },
+  {
+    "timestamp": "2025-04-17T10:16:12.345Z",
+    "level": "WARNING",
+    "message": "Slow query execution detected",
+    "module": "query_processor",
+    "function": "execute_query",
+    "line": 78,
+    "execution_time": 1.542
+  },
+  {
+    "timestamp": "2025-04-17T10:18:45.678Z",
+    "level": "ERROR",
+    "message": "Failed to process request",
+    "module": "request_handler",
+    "function": "process_request",
+    "line": 112,
+    "error_code": "ERR-1234",
+    "user_id": "user-789"
+  },
+  {
+    "timestamp": "2025-04-17T10:20:01.234Z",
+    "level": "INFO",
+    "message": "Request processed successfully",
+    "module": "request_handler",
+    "function": "process_request",
+    "line": 120,
+    "processing_time": 0.234,
+    "user_id": "user-456"
+  }
+]

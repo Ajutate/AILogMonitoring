@@ -1,0 +1,27 @@
+04-Jan-2025 14:57:39.857 INFO [Thread-13] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8002"]
+04-Jan-2025 14:57:39.885 INFO [Thread-13] org-apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["https-jsse-nio-8001"]
+04-Jan-2025 14:57:39.886 INFO [Thread-13] org-apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+04-Jan-2025 14:57:40.072 WARNING [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [gbsultra_hdfc
+04-Jan-2025 14:57:40.074 WARNING [Thread-13] org-apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [gbsultra_h
+sun.misc.Unsafe.park(Native Method)
+java.util. concurrent.locks.LockSupport.parkNanos(LockSupport.java: 215)
+java.util. concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanosAbstractQueuedSynchronizer-java: 2078)
+java.util. concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java: 1093)
+java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue. take(ScheduledThreadPoolExecutor-java: 809)
+java.util. concurrent.ThreadPoolExecutor-getTask(ThreadPoolExecutor.java:1074)
+java.util. concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java: 624)
+java.lang.Thread.run (Thread.java:750)
+04-Jan-2025 14:57:40.075 WARNING [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [gbsultra_hd
+sun.misc.Unsafe.park(Native Method)
+java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java: 2039)
+java.util. concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)
+java.util. concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor. java: 809)
+java.util. concurrent.ThreadPoolExecutor.getTask (ThreadPoolExecutor.java: 1074)
+java.util. concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor-java: 1134) java.util. concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java. lang. Thread.run(Thread.java:750)
+04-Jan-2025 14:57:40.090 INFO [Thread-13] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8002"]
+04-Jan-2025 14:57:40.114 INFO [Thread-13] org.apache.coyote.AbstractProtocal.stop Stopping ProtocolHandler ["https-jsse-nio-8001"]
+04-Jan-2025 14:57:40.139 INFO [Thread-13] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8002"]
+04-Jan-2025 14:57:40.140 INFO [Thread-13] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["https-jsse-nio-8001"]
